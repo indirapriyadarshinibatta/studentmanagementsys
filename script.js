@@ -1,9 +1,9 @@
-function addStudent() {
+function registerStudent() {
     let name = document.getElementById("name").value.trim();
     let roll = document.getElementById("roll").value.trim();
 
     if (name === "" || roll === "") {
-        alert("Enter all details");
+        alert("Student registration completed");
         return;
     }
 
@@ -13,4 +13,5 @@ function addStudent() {
 
     document.getElementById("name").value = "";
     document.getElementById("roll").value = "";
+
 }
